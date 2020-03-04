@@ -64,6 +64,8 @@
         </style>
     </head>
     <body>
+    <div id="example"></div>
+<script src="{{ asset('js/app.js') }}" ></script>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
